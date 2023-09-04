@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.container{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+.inputContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+#taskInput{
+    margin: 10px 0;
+    padding: 5px;
+}
+
+#dayAndTimeInput{
+    margin: 10px 0;
+    padding: 5px;
+}
+
+.setReminderContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+}
+
+.addBtn{
+    font-size: 17px;
+    background-color: greenyellow;
+    color: black;
+    padding: 20px;
+    cursor: pointer;
+    width: 100%;
+    height: 37px;
+    border-radius: 3px ;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.setRem{
+    color: rgb(196, 1, 231);
+}
+
+/* List Item */
+.listItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    margin: 20px 0;
+}
+
+.listItemContent span{
+    display: block;
+}
+
+.listItemContentTask{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.listItemContentDateAndTime{
+    color: rgb(58, 58, 58);
+}
+
+.delListBtn{
+    font-size: 13px;
+    background-color: darkred;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+}
